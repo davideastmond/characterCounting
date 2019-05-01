@@ -1,6 +1,6 @@
 let countCharacters = function(str) {
-  // Input a string and return an object with shows each character and the count
-  // As a key value pair
+  /* Input a string and return an object which shows each character and the count
+  As a key value pair */
 
   // First strip of spaces
   str = str.split(" ").join('');
@@ -17,4 +17,4 @@ let countCharacters = function(str) {
   }
   return retObj;
 }
-console.log(countCharacters("lighthouse \n in the house"));
+console.log(countCharacters("lighthouse in the house"));
