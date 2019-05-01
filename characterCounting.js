@@ -16,5 +16,5 @@ let countCharacters = function(str) {
     }
   }
   return retObj;
-}
+};
 console.log(countCharacters("lighthouse in the house"));
